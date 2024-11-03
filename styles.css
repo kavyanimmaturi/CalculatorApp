@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-size:18px;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+    background-color:lightcyan;
+}
+.container {
+    display:block;
+    width:320px;
+    background-color:antiquewhite;
+    border:1px solid #333;    
+}
+.answer{
+    border:none;
+    width:100%;
+    height:6rem;
+    background-color:#333;
+    color:#ffffff;
+    font-size:60px;
+    padding:0 10px;
+    box-sizing:border-box;
+}
+.clear, .equal{
+    width:160px;
+    background-color:#585858;
+    cursor: pointer;
+}
+.clear:hover, .equal:hover {
+    background-color:rgb(14, 214, 236);
+}
+.clear:active, .equal:active{
+    background-color:rgb(32, 186, 221);
+}
+.buttons {
+    width:80px;
+    cursor: pointer;
+}
+.buttons:hover{
+    background-color:#ddd;
+}
+.buttons:active{
+    background-color: #bbb;
+}
+input{
+    margin-right:-5px;
+    height:50px;
+    border:1px solid #333;
+}
